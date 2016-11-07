@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="搜索城市.."
+        android:id="@+id/searchCity"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/Theme.Material"/>
+    <TextView
+        android:textSize="14sp"
+        android:textAppearance="@android:style/Theme.Material"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/findCity"
+        />
+
+
+
+
+
+</LinearLayout>
